@@ -2,6 +2,7 @@
   /* HOME-MOBILE-LANDSCAPE   */
 
   .hero {
+    font-size: 50px;
     right: 451px;
     width: 1020px;
     height: 911px;
@@ -17,6 +18,10 @@
   }
   .hero-offer {
     left: 468px;
+    top: 285px;
+  }
+  .email-input-col{
+    width: 285px;
   }
 
   .content-mockup {
@@ -192,6 +197,43 @@
   
   .copyright {
     top: 480px;
+  }
+  /* ---------------------------------------NavBar & HAMBURGER------------------------------- */
+  nav .nav-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    opacity: 90%;
+    transition: top 1s ease 0s;
+    display: none;
+    gap: 30px;
+    width: 568px;
+  }
+  nav .nav-menu a{
+    text-decoration: none;
+  }
+  nav .openMenu{
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: 983px;
+    font-size: 2rem;
+  }
+  nav .nav-menu .closeMenu {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    top:77px;
+    left: 485px;
   }
 }
 
@@ -398,4 +440,45 @@
   .copyright {
     top: 989px;
   }
+
+
+  nav .nav-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: -122px;
+    text-align: center;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    opacity: 90%;
+    transition: top 1s ease 0s;
+    display: none;
+    gap: 30px;
+    width: 568px;
+  }
+  nav .nav-menu a{
+    text-decoration: none;
+  }
+  nav .openMenu{
+    display: block;
+    position: absolute;
+    top: -12px;
+    left: 983px;
+    font-size: 2rem;
+  }
+  nav .nav-menu .closeMenu {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    top:77px;
+    left: 396px;
+  }
 }
+
+
+

@@ -69,3 +69,32 @@ reviewCarousel.addEventListener('touchend', () => {
 reviewCarousel.addEventListener('touchcancel', () => {
   isDragging = false;
 });
+
+
+
+
+const mainMenu = document.querySelector('.nav-menu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+const menu_items = document.querySelectorAll('nav .nav-menu li a');
+
+
+
+
+openMenu.addEventListener('click', show);
+closeMenu.addEventListener('click', close);
+
+menu_items.forEach(item => {
+	item.addEventListener('click', function() {
+		close();
+	})
+})
+
+function show() {
+	mainMenu.style.display = 'flex';
+	mainMenu.style.top = '0';
+}
+
+function close() {
+	mainMenu.style.top = '-100%';
+}

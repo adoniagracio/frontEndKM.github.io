@@ -13,7 +13,7 @@
   height: 100%;
   overflow: hidden;
   text-align: left;
-  font-size: 50px;
+  font-size: 80px;
   color: #f5f5f5;
   font-family: "Lexend Deca";
 }
@@ -32,7 +32,7 @@
 
 .header {
   position: absolute;
-  top: 40px;
+  top: 60px;
   left: calc(50% - 580px);
   width: 68%;
   display: flex;
@@ -43,44 +43,19 @@
 .logo {
   position: relative;
   width: 100%;
-  left: -222px;
+  left: -332px;
 }
 
 .logo h1 {
   font-size: 52px;
 }
 
-.nav-menu {
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 56px;
-}
-
-.nav-menu a {
-  font-size: 20px;
-  line-height: 150%;
-  font-weight: 100;
-  color: white;
-}
-
-.nav-menu a button {
-  text-decoration: none;
-  border-radius: 4px;
-  background-color: rgba(84, 104, 231, 0.5);
-  padding: 10px 44px;
-  color: white;
-  border: none;
-  outline: none;
-}
 
 
 
 .hero-offer {
   position: absolute;
-  top: 252px;
+  top: 370px;
   left: 140px;
   display: flex;
   flex-direction: column;
@@ -90,7 +65,7 @@
 .hero-offer b {
   display: flex;
   flex-direction: column;
-  line-height: 140%;
+  line-height: 120%;
   width: 60%;
 }
 
@@ -116,7 +91,7 @@
   background-color: #f5f5f5;
   border: 2px solid #d1ecfd;
   box-sizing: border-box;
-  width: 285px;
+  width: 466px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -569,3 +544,88 @@ footer {
   font-size: 14px;
   width: 110%;
 }
+
+
+/* ---------------------------------------NavBar & HAMBURGER------------------------------- */
+
+.nav-menu  {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 56px;
+  width: 713px;
+}
+
+nav .openMenu {
+ 
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+
+nav .nav-menu .closeMenu,
+.icons i {
+  display: none;
+  cursor: pointer;
+}
+
+
+.nav-menu a {
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+    transition: 0.3s;
+    animation: slideTop 0.5s ease forwards;
+}
+
+.nav-menu a button {
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: rgba(84, 104, 231, 0.5);
+  padding: 10px 44px;
+  color: white;
+  border: none;
+  outline: none;
+
+}
+
+
+
+/* .mainMenu a {
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  margin-top: 5px;
+  position: relative;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+.mainMenu a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0ef;
+  transition: width 0.3s ease; 
+}
+
+.mainMenu a:hover::before {
+  width: 100%; 
+} */
+
+
+
+
+
