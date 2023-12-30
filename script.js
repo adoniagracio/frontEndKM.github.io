@@ -44,3 +44,28 @@ reviewCarousel.addEventListener('mouseup', () => {
 reviewCarousel.addEventListener('mouseleave', () => {
   isDragging = false;
 });
+reviewCarousel.addEventListener('touchstart', (e) => {
+  isDragging = true;
+  startX = e.touches[0].clientX;
+});
+
+reviewCarousel.addEventListener('touchmove', (e) => {
+  if (!isDragging || e.touches.length !== 1) return;
+
+  const walk = (e.touches[0].clientX - startX) * 2; 
+  currentPosition += walk;
+
+  const maxSlide = 0;
+
+  currentPosition = Math.max(-1200, Math.min(maxSlide, currentPosition));
+
+  reviewsContainer.style.transform = `translateX(${currentPosition}px)`;
+});
+
+reviewCarousel.addEventListener('touchend', () => {
+  isDragging = false;
+});
+
+reviewCarousel.addEventListener('touchcancel', () => {
+  isDragging = false;
+});
