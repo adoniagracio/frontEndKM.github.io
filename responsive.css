@@ -126,8 +126,6 @@
     width: 568px;
     height: 445px;
     overflow: hidden;
-    justify-content: unset;
-    
   }
   .content-section3 {
     position: relative;
@@ -135,7 +133,10 @@
     padding-right: 88px;
     margin: 0;
     gap: 28px;
+    top: 7px;
     left: 60px;
+    right: 0;
+    bottom: 0;
   }
   .image-container-section3 {
     margin: 0;
