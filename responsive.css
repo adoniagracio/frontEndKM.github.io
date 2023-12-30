@@ -86,7 +86,7 @@
   }
   .info-section2 {
     width: 568px;
-    height: 290px;
+    height: 368px;
     overflow: hidden;
   }
   .content-section2 {
@@ -102,6 +102,7 @@
     margin: 0;
     height: 271px;
     width: 365px;
+    bottom: 30px;
   }
   .image-icon-1 {
     width: 100px;
