@@ -1,0 +1,139 @@
+
+
+@media screen and (max-width: 320px){
+
+} 
+
+@media screen and (max-width: 600px) {
+  body{
+    max-width: 104vh;
+  }
+  .description{
+    font-size: 14px;    
+  }
+  .section-title{
+    line-height: 50px;
+  }
+
+  .hero{
+    right: 323px;
+    width: 923px;
+    height: 100vh;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .logo{
+    left: 470px;
+  }
+  .nav-menu{
+    display: none;
+  }
+  .hero-offer{
+    left: 350px;
+  }
+  .content-mockup{
+    width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 60px;
+    padding-top: 100px;
+  }
+  .offer-mockup{
+    width: 553px;
+    padding: 0;
+  }
+  .mockup-img{
+    width: 100%;
+  }
+  .info-section{
+    width: 600px;
+  }
+  .content-section{
+    width: 300px;
+    margin: 0;
+  }
+  .image-container{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 25px;
+  }
+  .calender-icon{
+    width: 120px;
+    top: 204px;
+  }
+  .info-section2{
+    width: 600px;
+  }
+  .content-section2{
+    margin: 0;
+    width: 483px;
+  }
+  .image-container-section2{
+    margin: 0;
+    height: 271px;
+    width: 365px;
+  }
+  .image-icon-1{
+    width: 100px;
+    top: 100px;
+  }
+  .image-icon-2{
+    width: 100px;
+    top: 150px;
+  }
+  .image-icon-3{
+    width: 100px;
+    right: 154px;
+    top: 105px;
+  }
+  .image-icon-4{
+    width: 100px;
+    right: 154px;
+    top: 213px;
+  }
+  .info-section3{
+    width: 600px;
+  }
+  .image-container-section3{
+    margin: 0;
+    width: 274px;
+    height: 332px;
+  }
+  .what-people-say{
+    width: 600px;
+    text-align: center;
+  }
+.carousel-container{
+  width: 600px;
+}
+.reviews{
+  left: 38px;
+}
+.arrows{
+  left: 400px;
+}
+  footer {
+    width: 600px;
+    min-height: 1400px
+  }
+  .company-container{
+    display: flex;
+    flex-direction: column; 
+  }
+  .company-info{
+    padding-top: 50px;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .copyright{
+    top: 1034px;
+  }
+}
