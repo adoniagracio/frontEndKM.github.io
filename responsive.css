@@ -126,6 +126,8 @@
     width: 568px;
     height: 445px;
     overflow: hidden;
+    justify-content: unset;
+    
   }
   .content-section3 {
     position: relative;
