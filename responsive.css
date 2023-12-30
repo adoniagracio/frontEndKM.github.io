@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 1300px){
 
 } 
 
@@ -18,7 +18,7 @@
   .hero{
     right: 172px;
     width: 923px;
-    height: 100vh;
+    height: 911px;
   }
   .hero-img {
     width: 100%;
