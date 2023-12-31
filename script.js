@@ -57,7 +57,7 @@ reviewCarousel.addEventListener('touchmove', (e) => {
 
   const maxSlide = 0;
 
-  currentPosition = Math.max(-1200, Math.min(maxSlide, currentPosition));
+  currentPosition = Math.max(-1400, Math.min(maxSlide, currentPosition));
 
   reviewsContainer.style.transform = `translateX(${currentPosition}px)`;
 });
